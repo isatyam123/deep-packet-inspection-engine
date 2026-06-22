@@ -107,8 +107,8 @@ AppType sniToAppType(const std::string& sni) {
     // Twitter/X
     if (lower_sni.find("twitter") != std::string::npos ||
         lower_sni.find("twimg") != std::string::npos ||
-        lower_sni.find("x.com") != std::string::npos ||
-        lower_sni.find("t.co") != std::string::npos) {
+        lower_sni == "x.com" || lower_sni.find(".x.com") != std::string::npos ||
+        lower_sni == "t.co" || lower_sni.find(".t.co") != std::string::npos) {
         return AppType::TWITTER;
     }
     

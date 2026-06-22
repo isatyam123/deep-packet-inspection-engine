@@ -1,0 +1,38 @@
+# Executables
+*.exe
+*.out
+
+# Object files
+*.o
+*.obj
+
+# Libraries
+*.dll
+*.lib
+*.a
+*.so
+*.dylib
+
+# Generated outputs
+output*.pcap
+
+# Build folders
+build/
+cmake-build-debug/
+cmake-build-release/
+
+# VS Code
+.vscode/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj*
+*.user
