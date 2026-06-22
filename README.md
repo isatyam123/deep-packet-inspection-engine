@@ -6,6 +6,17 @@ The engine processes raw packets through a scalable pipeline of load balancer an
 
 ---
 
+## Highlights
+
+- Multithreaded DPI pipeline with Reader → Load Balancer → Fast Path architecture
+- Flow-aware packet processing using 5-tuple hashing
+- TLS SNI extraction for encrypted HTTPS traffic classification
+- Supports 15+ application signatures including YouTube, Netflix, GitHub, Discord, Spotify and Zoom
+- Rule-based filtering using IP, domain and application policies
+- Generates analytics reports and filtered PCAP outputs
+
+---
+
 ## Overview
 
 Modern networks carry encrypted traffic where traditional port-based classification is often insufficient.
